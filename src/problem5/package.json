@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon -r tsconfig-paths/register src/index.ts | ./node_modules/.bin/bunyan",
     "build": "tspc -p .",
-    "start": "NODE_ENV=production pm2 start ./build/src/app.js -i 5 --attach --watch | ./node_modules/.bin/bunyan",
+    "start": "NODE_ENV=production pm2 start ./build/src/index.js -i 5 --attach --watch | ./node_modules/.bin/bunyan",
     "stop": "pm2 stop all",
     "delete": "pm2 delete all"
   },
