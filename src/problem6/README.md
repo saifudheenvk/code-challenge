@@ -23,7 +23,8 @@ This module implements a real-time scoreboard system that displays the top 10 us
 5. **WebSocket Server**: Real-time scoreboard updates
 
 ## Database Schema
-!DbDiagram(./challenge.png)
+
+![Database Schema Diagram](./Challenge.png)
 
 ### User Table
 
